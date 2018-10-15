@@ -1,0 +1,13 @@
+****** SUPPLIER MONTHLY REPORT ******
+
+SID   SNAME           ORDERMO TOTALORDERS TOTALUNITS TotalAmount                                                                                                                                        
+----- --------------- ------- ----------- ---------- -----------                                                                                                                                        
+s1    Staples         05/2018           2        700     $700.00                                                                                                                                        
+s1    Staples         08/2018           1         50      $50.00                                                                                                                                        
+s2    Office Depot    05/2018           1        500   $1,000.00                                                                                                                                        
+s2    Office Depot    08/2018           1        100     $200.00                                                                                                                                        
+s3    Target          05/2018           1       1000     $500.00                                                                                                                                        
+s3    Target          08/2018           1        100     $200.00                                                                                                                                        
+s4    Costco          08/2018           1         50     $150.00                                                                                                                                        
+s5    Best Buy        05/2018           1         20   $1,000.00                                                                                                                                        
+s5    Best Buy        08/2018           1         10     $500.00                                                                                                                                        

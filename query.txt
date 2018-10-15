@@ -1,0 +1,51 @@
+SQL> /* Q1. Display CNum, CTitle, Grade for Andy */
+SQL> select Enrollments.CNum, Ctitle, Grade
+  2  from Students, Enrollments, Courses
+  3  where SName='Andy' and Students.SNum=Enrollments.SNum and Enrollments.CNum=Courses.CNum;
+
+CNUM     CTITLE                    G                                            
+-------- ------------------------- -                                            
+IS380    Database                  B                                            
+IS385    Systems                   A                                            
+
+SQL> 
+SQL> /* Q2. Display SNum, SName of students who took Is380 */
+SQL> select Enrollments.SNum, Sname
+  2  from Students, Enrollments
+  3  where CNum='IS380' and Students.SNum=Enrollments.SNum;
+
+SNU SNAME                                                                       
+--- -------------------------                                                   
+101 Andy                                                                        
+102 Betty                                                                       
+
+SQL> 
+SQL> /* Q3. Display SNum, SName of students who took Is380 and got a A */
+SQL> select Enrollments.SNum, Sname
+  2  from Students, Enrollments
+  3  where CNum='IS380' and Students.SNum=Enrollments.SNum and Grade='A';
+
+SNU SNAME                                                                       
+--- -------------------------                                                   
+102 Betty                                                                       
+
+SQL> 
+SQL> /* Q4. Display SNum, SName of students who took Is380 and IS majors */
+SQL> select Enrollments.SNum, Sname
+  2  from Students, Enrollments
+  3  where CNum='IS380' and Students.SNum=Enrollments.SNum and Major='IS';
+
+SNU SNAME                                                                       
+--- -------------------------                                                   
+101 Andy                                                                        
+
+SQL> 
+SQL> /* Q5. Display SNum and SName of IS students who received an 'A' in Is380 */
+SQL> select Enrollments.SNum, Sname
+  2  from Students, Enrollments
+  3  where CNum='IS380' and Students.SNum=Enrollments.SNum and Major='IS' and Grade='A';
+
+no rows selected
+
+SQL> 
+SQL> spool off

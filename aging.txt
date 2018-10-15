@@ -1,0 +1,13 @@
+****** PURCHASE ORDER Aging Report ******
+
+'TODAY''SDATE: SYSDATE                                                                                                                                                                                  
+-------------- ---------                                                                                                                                                                                
+Today's Date:  13-MAY-18                                                                                                                                                                                
+Please enter the number of days to query: 2
+
+      POID STATUS DATEOPEN   PID   PDESC             ORDERQTY UnitPrice OrderAmount SID   SNAME           DaysOpen                                                                                      
+---------- ------ ---------- ----- --------------- ---------- --------- ----------- ----- --------------- --------                                                                                      
+      1002 C      08/26/2018 p2    Pen                    100      2.00      200.00 s2    Office Depot          35                                                                                      
+      1003 C      08/26/2018 p3    Eraser                 100       .50      200.00 s3    Target                 4                                                                                      
+      1004 C      08/27/2018 p4    Folder                  50      3.00      150.00 s4    Costco                 2                                                                                      
+      1005 C      08/28/2018 p5    Printer                 10     50.00      500.00 s5    Best Buy               2                                                                                      

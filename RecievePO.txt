@@ -1,0 +1,35 @@
+****** R E C I E V E  O R D E R ******
+
+Today's Date:  13-MAY-18                                                                                                                                                                                
+Please enter the Purchase Order Number: 1010
+
+Purchase Order Number:        1010                                                                                                                                                                      
+
+Item Number:  p3                                                                                                                                                                                        
+
+Item Description:  Eraser                                                                                                                                                                               
+
+Supplier Number:  s3                                                                                                                                                                                    
+
+Supplier Name:  Target                                                                                                                                                                                  
+
+Date Ordered:  13-MAY-2018                                                                                                                                                                              
+
+Today's Date:  13-MAY-2018                                                                                                                                                                              
+
+Quantity Ordered:        1000                                                                                                                                                                           
+
+Unit Price:        $.50                                                                                                                                                                                 
+
+Amount Ordered:      $500.00                                                                                                                                                                            
+
+Enter quantity recieved:970
+
+Amount Due:    $485.00                                                                                                                                                                                  
+
+Inventory Level:              -2850                                                                                                                                                                     
+********************************
+
+Order is now ---> C                                                                                                                                                                                     
+
+Date Closed:  13-MAY-2018                                                                                                                                                                               

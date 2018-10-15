@@ -1,0 +1,95 @@
+****** OPEN ORDER ******
+
+
+'TODAY''SDATE: SYSDATE                                                                                                                                                                                  
+-------------- ---------                                                                                                                                                                                
+Today's Date:  13-MAY-18                                                                                                                                                                                
+
+1 row selected.
+
+
+Enter the Item Number: p2
+
+'ITEMDESCRIPTION:' PDESC                                                                                                                                                                                
+------------------ ---------------                                                                                                                                                                      
+Item Description:  Pen                                                                                                                                                                                  
+
+1 row selected.
+
+
+'CURRENTINVENTORYLEVEL:'   INVENTORY                                                                                                                                                                    
+------------------------- ----------                                                                                                                                                                    
+Current Inventory Level:        1000                                                                                                                                                                    
+
+1 row selected.
+
+
+Please select from one of the following Authorized Suppliers:
+
+SID   SNAME           CITY            STATE           UnitPrice                                                                                                                                         
+----- --------------- --------------- --------------- ---------                                                                                                                                         
+s2    Office Depot    Long Beach      California           2.00                                                                                                                                         
+
+1 row selected.
+
+
+Enter the Supplier Name: s2
+
+'SUPPLIERNAME:' SNAME                                                                                                                                                                                   
+--------------- ---------------                                                                                                                                                                         
+Supplier Name:  Office Depot                                                                                                                                                                            
+
+1 row selected.
+
+
+'ADDRESS: ADDRESS                                                                                                                                                                                       
+--------- --------------------                                                                                                                                                                          
+Address:  123 Little Ave                                                                                                                                                                                
+
+1 row selected.
+
+
+'CITYANDSTATE:'  CITY||','||STATE                                                                                                                                                                       
+---------------- -------------------------------                                                                                                                                                        
+City and State:  Long Beach,California                                                                                                                                                                  
+
+1 row selected.
+
+
+'PHONE: PHONE                                                                                                                                                                                           
+------- --------------------                                                                                                                                                                            
+Phone:  (122)123-1654                                                                                                                                                                                   
+
+1 row selected.
+
+
+Enter Order Quantity: 600
+
+'UNITPRICE:'  UnitPrice                                                                                                                                                                                 
+------------ ----------                                                                                                                                                                                 
+Unit Price:       $2.00                                                                                                                                                                                 
+
+1 row selected.
+
+
+'AMOUNTORDERED:' OrderAmount                                                                                                                                                                            
+---------------- -----------                                                                                                                                                                            
+Amount Ordered:    $1,200.00                                                                                                                                                                            
+
+1 row selected.
+
+
+
+1 row created.
+
+***** Order Status: Open
+
+'*****PURCHASEORDERNUMBERIS----->'        CURRVAL                                                                                                                                                       
+-------------------------------------- ----------                                                                                                                                                       
+***** Purchase Order Number is ----->        1006                                                                                                                                                       
+
+1 row selected.
+
+
+Commit complete.
+

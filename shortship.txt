@@ -1,0 +1,14 @@
+****** SHORT SHIP REPORT ******
+
+
+'TODAY''SDATE: SYSDATE                                                                                                                                                                                  
+-------------- ---------                                                                                                                                                                                
+Today's Date:  13-MAY-18                                                                                                                                                                                
+
+      POID STATUS DATEOPEN   PID   PDESC             ORDERQTY RecieveQty ShortQty SID   SNAME                                                                                                           
+---------- ------ ---------- ----- --------------- ---------- ---------- -------- ----- ---------------                                                                                                 
+      1006 C      05/13/2018 p5    Printer                 20         15        5 s5    Best Buy                                                                                                        
+      1007 C      05/13/2018 p1    Pencil                 100         98        2 s1    Staples                                                                                                         
+      1008 C      05/13/2018 p4    Folder                 600        500      100 s1    Staples                                                                                                         
+      1009 C      05/13/2018 p2    Pen                    500        400      100 s2    Office Depot                                                                                                    
+      1010 C      05/13/2018 p3    Eraser                1000        970       30 s3    Target                                                                                                          

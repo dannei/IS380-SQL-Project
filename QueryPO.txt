@@ -1,0 +1,32 @@
+****** Q U E R Y   O R D E R ******
+Please enter the Purchase Order Number: 1009
+
+Purchase Order Number:        1009                                                                                                                                                                      
+
+Item Number:  p2                                                                                                                                                                                        
+
+Item Description:  Pen                                                                                                                                                                                  
+
+Current Inventory Level:         600                                                                                                                                                                    
+
+Supplier Number:  s2                                                                                                                                                                                    
+
+Supplier Name:  Office Depot                                                                                                                                                                            
+
+
+Date Ordered:  13-MAY-2018                                                                                                                                                                              
+
+Quantity Ordered:         500                                                                                                                                                                           
+
+Date Recieved:  13-MAY-2018                                                                                                                                                                             
+
+Quantity Recieved:         400                                                                                                                                                                          
+
+Unit Price:       $2.00                                                                                                                                                                                 
+
+Amount Ordered:    $1,000.00                                                                                                                                                                            
+
+Amount Due:     $200.00                                                                                                                                                                                 
+
+
+Order Status: C                                                                                                                                                                                         
